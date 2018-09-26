@@ -9,6 +9,7 @@ Base docker file to use as a starting point for other projects, this is a custom
 - nano 
 - unzip 
 - tar 
+- bzip2
 - make 
 - gcc 
 - g++ 
