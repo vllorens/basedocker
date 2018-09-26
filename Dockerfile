@@ -8,7 +8,7 @@ RUN yum -y update; yum -y install epel-release; yum clean all
 RUN yum -y install wget curl vim nano unzip tar make gcc g++ gfortran
 
 # Install java
-RUN yum install java-1.8.0-openjdk
+RUN yum -y install java-1.8.0-openjdk
 
 # Install python pip
 RUN yum -y install git python-pip
