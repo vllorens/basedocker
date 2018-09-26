@@ -3,7 +3,7 @@
 
 Custom Docker image based on CentOS 7
 
-### v1.0
+### v1.0 (2018/09/26)
 - wget 
 - curl 
 - vim
