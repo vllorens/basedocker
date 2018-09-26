@@ -15,3 +15,4 @@ Base docker file to use as a starting point for other projects, this is a custom
 - gfortran
 - pip
 - Java
+- R

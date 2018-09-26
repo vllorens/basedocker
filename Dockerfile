@@ -5,14 +5,16 @@ MAINTAINER Veronica Llorens Rico <vllorens9@gmail.com>
 RUN yum -y update; yum -y install epel-release; yum clean all
 
 # Install other stuff
-RUN yum -y install wget curl vim nano unzip tar make gcc g++ gfortran && \
-  yum clean all
+RUN yum -y install wget curl vim nano unzip tar make gcc g++ gfortran
 
 # Install java
-RUN yum install java-1.8.0-openjdk; yum clean all
+RUN yum install java-1.8.0-openjdk
 
-# install python pip
-RUN yum -y install git python-pip; yum clean all
+# Install python pip
+RUN yum -y install git python-pip
+
+# Install R
+sudo yum -y install R
 
 #
 # Create the home folder
