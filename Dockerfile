@@ -14,7 +14,7 @@ RUN yum install java-1.8.0-openjdk
 RUN yum -y install git python-pip
 
 # Install R
-sudo yum -y install R
+RUN yum -y install R
 
 #
 # Create the home folder
