@@ -5,7 +5,7 @@ MAINTAINER Veronica Llorens Rico <vllorens9@gmail.com>
 RUN yum -y update; yum -y install epel-release; yum clean all
 
 # Install other stuff
-RUN yum -y install wget curl vim nano unzip tar bzip2 make gcc g++ gfortran
+RUN yum -y install wget curl vim nano unzip tar bzip2 make gcc g++ gfortran ncurses-devel
 
 # Install java
 RUN yum -y install java-1.8.0-openjdk
