@@ -16,11 +16,3 @@ RUN yum -y install git python-pip
 # Install R and dependencies for tidyverse
 RUN yum -y install R-core R-devel
 RUN yum -y install libxml2-devel curl-devel openssl-devel
-
-#
-# Create the home folder
-#
-RUN mkdir -p /root/
-ENV HOME /root
-
-WORKDIR ~/
