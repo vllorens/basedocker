@@ -20,3 +20,6 @@ Base docker file to use as a starting point for other projects, this is a custom
 
 ### v1.1 (2018/10/03)
 - ncurses-devel
+
+### v1.2 (2022/01/21)
+- Python3
