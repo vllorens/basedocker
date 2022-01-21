@@ -10,8 +10,11 @@ RUN yum -y install wget curl vim nano unzip tar bzip2 make gcc g++ gfortran ncur
 # Install java
 RUN yum -y install java-1.8.0-openjdk
 
-# Install python pip
+# Install python3 and pip/pip3
+RUN yum -y install python3
+ 
 RUN yum -y install git python-pip
+RUN yum -y install python3-pip
 
 # Install R and dependencies for tidyverse
 RUN yum -y install R-core R-devel
